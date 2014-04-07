@@ -39,6 +39,11 @@ Map {
   }
 }
 
+#country_label_line {
+  line-color: #324;
+  line-opacity: 0.05;
+}
+
 
 
 

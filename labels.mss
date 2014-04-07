@@ -2,6 +2,7 @@
 
 #country_label[zoom>=3] {
   text-name: @name;
+  //text-face-name: 'Gotham HTF Book';
   text-face-name: 'Source Sans Pro Bold';
   text-wrap-width: 100;
   text-wrap-before: true;
@@ -21,11 +22,6 @@
   }
 }
 
-#country_label_line {
-  line-color: #324;
-  line-opacity: 0.05;
-}
-
 #place_label {
   [type='city'][zoom<=15] {
     text-name: @name;
@@ -40,6 +36,7 @@
   [type='town'][zoom<=17] {
     text-name: @name;
     text-face-name: 'Source Sans Pro Regular';
+   // text-face-name: 'Gotham HTF Book';
     text-fill: #333;
     text-size: 14;
     text-wrap-width: 100;
