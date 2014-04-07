@@ -2,8 +2,10 @@
 @name: '[name_en]';
 
 // Common Colors //
-@water: #b5cec8;
-//@water: #b1d0c0;
+//@water: #b5cec8;
+@water: #b1d0c0;
+//@water: polygon-pattern-file: url("images/bluedot.png");
+
 
 //bright green
 //outline:

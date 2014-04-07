@@ -23,25 +23,31 @@
 //park outline
 #landuse {
   [class='park'] { 
+  
     polygon-fill: @park; 
-    line-color: #b9d5a7;
-    //2nd choice:
+    line-color: #cbc9b7;
+    //other options: 
+    //line-color: #b9d5a7;
+    //line-color: #898b61;
     //line-color: #b9cc32;
     
     //polygon-pattern-file: url(" ");
+    [zoom>=7]{ line-width: 0.25; }
+    [zoom>=8]{ line-width: 0.5; }
+    [zoom>=9]{ line-width: 0.75; }
     [zoom>=10]{ line-width: 1; }
-    [zoom>=11]{ line-width: 0.25; }
-    [zoom>=12]{ line-width: 1; }
-    [zoom>=13]{ line-width: 0.5; }
-    [zoom>=14]{ line-color: #898b61; line-width: 1;}
-    [zoom>=15]{ line-color: #898b61; line-width: 1.5;}
-    [zoom>=16]{ line-color: #898b61; line-width: 2; }
-    [zoom>=17]{ line-color: #898b61; line-width: 2.5; }
+    [zoom>=11]{ line-width: 1.25; }
+    [zoom>=12]{ line-width: 1.5; }
+    [zoom>=13]{ line-width: 1.75; }
+    [zoom>=14]{ line-width: 2;}
+    [zoom>=15]{ line-width: 2.25;}
+    [zoom>=16]{ line-width: 2.5; }
+    [zoom>=17]{ line-width: 2.75; }
     [zoom>=18]{ line-width: 3; }
-    [zoom>=19]{ line-width: 3.5; }
-    [zoom>=20]{ line-width: 4; }
-    [zoom>=21]{ line-width: 4.5; }
-    [zoom>=22]{ line-width: 5; }
+    [zoom>=19]{ line-width: 3.25; }
+    [zoom>=20]{ line-width: 3.5; }
+    [zoom>=21]{ line-width: 3.75; }
+    [zoom>=22]{ line-width: 4; }
   }
  }
 

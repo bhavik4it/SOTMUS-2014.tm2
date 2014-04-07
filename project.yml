@@ -8,15 +8,15 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - -122.38896131515502
-  - 37.73363585538529
-  - 16
+  - -124.29382324218749
+  - 45.365654708866245
+  - 8
 description: ''
 format: "png8:m=h"
 interactivity_layer: ''
 maxzoom: 22
 minzoom: 0
-mtime: 1396828398216
+mtime: 1396837714291
 name: SOTM
 scale: 1
 source: "mapbox:///mapbox.mapbox-streets-v4"
