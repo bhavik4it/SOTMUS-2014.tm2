@@ -32,22 +32,22 @@
     //line-color: #b9cc32;
     
     //polygon-pattern-file: url(" ");
-    [zoom>=7]{ line-width: 0.25; }
-    [zoom>=8]{ line-width: 0.5; }
-    [zoom>=9]{ line-width: 0.75; }
-    [zoom>=10]{ line-width: 1; }
-    [zoom>=11]{ line-width: 1.25; }
-    [zoom>=12]{ line-width: 1.5; }
-    [zoom>=13]{ line-width: 1.75; }
-    [zoom>=14]{ line-width: 2;}
-    [zoom>=15]{ line-width: 2.25;}
-    [zoom>=16]{ line-width: 2.5; }
-    [zoom>=17]{ line-width: 2.75; }
-    [zoom>=18]{ line-width: 3; }
-    [zoom>=19]{ line-width: 3.25; }
-    [zoom>=20]{ line-width: 3.5; }
-    [zoom>=21]{ line-width: 3.75; }
-    [zoom>=22]{ line-width: 4; }
+    [zoom>=7]{ line-width: 0; }
+    [zoom>=8]{ line-width: 0; }
+    [zoom>=9]{ line-width: 0; }
+    [zoom>=10]{ line-width: 0; }
+    [zoom>=11]{ line-width: 0.25; }
+    [zoom>=12]{ line-width: 0.5; }
+    [zoom>=13]{ line-width: 0.75; }
+    [zoom>=14]{ line-width: 1;}
+    [zoom>=15]{ line-width: 1.25;}
+    [zoom>=16]{ line-width: 1.5; }
+    [zoom>=17]{ line-width: 1.75; }
+    [zoom>=18]{ line-width: 2; }
+    [zoom>=19]{ line-width: 2.25; }
+    [zoom>=20]{ line-width: 2.5; }
+    [zoom>=21]{ line-width: 2.75; }
+    [zoom>=22]{ line-width: 3; }
   }
  }
 // Wood // 
@@ -87,10 +87,5 @@
   [zoom>=19]{ line-color: #e29e9d; line-width: 1; }
   [zoom>=20]{ line-color: #e29e9d; line-width: 1.25; }
   [zoom>=21]{ line-color: #e29e9d; line-width: 1.5; }
-  [zoom>=22]{ line-color: #e29e9d; line-width: 1.75; }
-  
+  [zoom>=22]{ line-color: #e29e9d; line-width: 1.75; } 
 }
-
-
-//class = 'wood'
-//@park: #d0da7e;
