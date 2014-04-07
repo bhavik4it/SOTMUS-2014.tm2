@@ -10,6 +10,7 @@
 //@park: #d0da7e;
 
 Map {
+  font-directory: url("font/");
  // background-color: #f0ece0;
   //background-image: url("images/background_texture_V2.png");
   background-image: url("images/background_texture_V3.png");

@@ -2,8 +2,7 @@
 
 #country_label[zoom>=3] {
   text-name: @name;
-  //text-face-name: 'Gotham HTF Book';
-  text-face-name: 'Source Sans Pro Bold';
+  text-face-name: 'Whitney Bold';
   text-wrap-width: 100;
   text-wrap-before: true;
   text-fill: #66a;
@@ -25,7 +24,7 @@
 #place_label {
   [type='city'][zoom<=15] {
     text-name: @name;
-    text-face-name: 'Source Sans Pro Semibold';
+    text-face-name: 'Whitney Bold';
     text-fill: #444;
     text-size: 16;
     text-wrap-width: 100;
@@ -35,8 +34,7 @@
   }
   [type='town'][zoom<=17] {
     text-name: @name;
-    text-face-name: 'Source Sans Pro Regular';
-   // text-face-name: 'Gotham HTF Book';
+    text-face-name: 'Whitney Bold';
     text-fill: #333;
     text-size: 14;
     text-wrap-width: 100;
@@ -46,8 +44,7 @@
   }
   [type='village'] {
     text-name: @name;
-    text-face-name: 'Source Sans Pro Regular';
-    //text-face-name: 'Whitney Bold';
+    text-face-name: 'Whitney Bold';
     text-fill: #444;
     text-size: 12;
     text-wrap-width: 100;
@@ -59,8 +56,7 @@
   [type='suburb'],
   [type='neighbourhood'] {
     text-name: @name;
-    text-face-name: 'Source Sans Pro Regular';
-    //text-face-name: 'Whitney Bold Pro';
+    text-face-name: 'Whitney Bold';
     text-fill: #666;
     text-size: 12;
     text-wrap-width: 100;
@@ -84,3 +80,7 @@
     text-wrap-before: true;
   }
 }
+
+//road labels 
+//try
+// text-face-name: 'Whitney Semibold';
