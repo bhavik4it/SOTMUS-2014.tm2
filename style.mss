@@ -6,11 +6,6 @@
 @water: #b1d0c0;
 //@water: polygon-pattern-file: url("images/bluedot.png");
 
-
-//bright green
-//outline:
-//@park: #b9cc32;
-
 @park: #d7dfa3;
 //@park: #d0da7e;
 
