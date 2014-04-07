@@ -47,6 +47,7 @@
   [type='village'] {
     text-name: @name;
     text-face-name: 'Source Sans Pro Regular';
+    //text-face-name: 'Whitney Bold';
     text-fill: #444;
     text-size: 12;
     text-wrap-width: 100;
@@ -59,6 +60,7 @@
   [type='neighbourhood'] {
     text-name: @name;
     text-face-name: 'Source Sans Pro Regular';
+    //text-face-name: 'Whitney Bold Pro';
     text-fill: #666;
     text-size: 12;
     text-wrap-width: 100;
