@@ -1,6 +1,11 @@
 // Water Features //
 
 #water {
+  // Add an outline to the water without causing seams in the ocean
+  ::outline  {
+    line-width: 1;
+    line-color: darken(@water,10%);
+  }
   polygon-fill: @water;
   polygon-gamma: 0.6;
 }
